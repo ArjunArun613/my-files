@@ -1,2 +1,0 @@
-# my-files
-SPORTS CLUB
