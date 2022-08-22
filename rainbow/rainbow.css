@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    }
+
+body{
+        margin:auto
+        
+    }
+  
+
+.rainbow{
+    border: 2px solid black;
+    width: 100vw;
+    height:50vw;
+    position: relative;
+    overflow:hidden;
+    
+  }
+
+.rainbow:after
+{
+    content:'';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+    left: 25%;
+    top: 45%;
+    box-shadow: 0 0 0 2vw purple,0 0 0 4vw indigo,0 0 0 6vw blue,0 0 0 8vw green,0 0 0 10vw yellow,0 0 0 12vw orangered,0 0 0 14vw red;
+}
